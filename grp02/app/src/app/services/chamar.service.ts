@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ChamarService {
-    
+
   public chamarGeral: number = 0;
   public chamarPrioritaria: number = 0;
   public chamarExame: number = 0;

@@ -22,11 +22,11 @@
       </ion-list>
     </ion-card-header>
     <ion-card-content>
-      <ion-button expand="block" (click)="senhasService.somaGeral()">Geral</ion-button>
+      <ion-button expand="block" (click)="senhasService.somaGeral();senhasService.novaSenha('SG')">Geral</ion-button>
       <br>
-      <ion-button expand="block" (click)="senhasService.somaPrioritaria()">Prioritária</ion-button>
+      <ion-button expand="block" (click)="senhasService.somaPrioritaria();senhasService.novaSenha('SP')">Prioritária</ion-button>
       <br>
-      <ion-button expand="block" (click)="senhasService.somaExame()">Exame</ion-button>
+      <ion-button expand="block" (click)="senhasService.somaExame();senhasService.novaSenha('SE')">Exame</ion-button>
     </ion-card-content>
   </ion-card>
   <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
