@@ -1,0 +1,31 @@
+{
+   "name": "api-tickets",
+   "version": "1.0.0",
+   "main": "src/index.js",
+   "scripts": {
+      "dev": "nodemon",
+      "migration": "npx prisma migration dev",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MathLopes1/api-tickets.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/MathLopes1/api-tickets/issues"
+   },
+   "homepage": "https://github.com/MathLopes1/api-tickets#readme",
+   "description": "project tickets",
+   "dependencies": {
+      "@prisma/client": "^4.10.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.20",
+      "prisma": "^4.10.1"
+   }
+}
