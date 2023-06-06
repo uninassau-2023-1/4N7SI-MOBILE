@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar id="up-toolbar"
+    style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; color: aliceblue;">
+    <ion-title>
+      <ion-icon name="paw-outline" style="height: 30px; width: 30px;"></ion-icon>
+      <a href="home" style="color: aliceblue; text-decoration: none;"><strong>Clínica Veterinária</strong></a>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true"
+  style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding-top: 50px;">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"> <strong style="color: aliceblue;">Clínica Veterinária</strong> </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!--AQUI VAI O CONTEUDO CENTRAL DA PAGINA-->
+  <div id="container">
+
+    <p style="color:aliceblue; font-size: 15px; padding: 5px;">Informe seus dados para validação e registro</p>
+
+    <br>
+
+    <div id="div-login" style="height: 60px;">
+      <div id="div-input-cpf"
+        style="border-bottom: 20px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+        <ion-item style="width: 300px; border-radius: 20px;">
+          <ion-input label="Seu nome completo" labelPlacement="floating" type="email"
+            style="height: 40px; "></ion-input>
+        </ion-item>
+      </div>
+      <br>
+
+      <div id="div-input-senha"
+        style="border-bottom: 20px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+        <ion-item style="width: 300px; border-radius: 20px;">
+          <ion-input label="Seu CPF (sem pontos)" labelPlacement="floating" style="height: 40px;"></ion-input>
+        </ion-item>
+      </div>
+      <br>
+      <div id="div-login" style="height: 60px;">
+        <div id="div-input-cpf"
+          style="border-bottom: 20px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+          <ion-item style="width: 300px; border-radius: 20px;">
+            <ion-input label="Sua data de nascimento" labelPlacement="floating" type="email"
+              style="height: 40px; "></ion-input>
+          </ion-item>
+        </div>
+        <br>
+
+        <div id="div-input-senha"
+          style="border-bottom: 20px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+          <ion-item style="width: 300px; border-radius: 20px;">
+            <ion-input label="Seu E-mail" labelPlacement="floating" style="height: 40px;"></ion-input>
+          </ion-item>
+        </div>
+        <br>
+        <div id="div-login" style="height: 60px;">
+          <div id="div-input-cpf"
+            style="border-bottom: 20px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+            <ion-item style="width: 300px; border-radius: 20px;">
+              <ion-input label="Sua senha" labelPlacement="floating" type="password" style="height: 40px; "></ion-input>
+            </ion-item>
+          </div>
+          <br>
+          <div id="div-input-senha"
+            style="border-bottom: 20px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+            <ion-item style="width: 300px; border-radius: 20px;">
+              <ion-input label="Confirme a senha" labelPlacement="floating" type="password"
+                style="height: 40px;"></ion-input>
+            </ion-item>
+          </div>
+        </div>
+
+        <br>
+        <div id="div-botoes"
+          style="padding-top: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+          <ion-button href="menu" color="danger" style="width: 200px;">Cadastrar</ion-button>
+        </div>
+
+      </div>
+
+      <ion-toolbar id="down-toolbar" style="color: aliceblue; max-width: ;">
+        <ion-title id="down-toolbar-text" widht="100%">
+          Problemas? contate o suporte
+          <ion-button href="suporte" color="danger" style="height: 30px;">
+            Ajuda
+          </ion-button>
+        </ion-title>
+      </ion-toolbar>

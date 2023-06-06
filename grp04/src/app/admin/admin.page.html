@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar id="up-toolbar"
+    style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; color: aliceblue;">
+    <ion-title>
+      <ion-icon name="paw-outline" style="height: 30px; width: 30px;"></ion-icon>
+      <a href="home" style="color: aliceblue; text-decoration: none;"><strong>Administração</strong></a>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true"
+  style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding-top: 50px;">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"> <strong style="color: aliceblue;">Clínica Veterinária</strong> </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!--AQUI VAI O CONTEUDO CENTRAL DA PAGINA-->
+  <div id="container" style="padding-top: 150px;">
+
+    <p style="color:aliceblue; font-size: 15px;">Atendimentos Pendentes</p>
+
+    <br>
+
+    <div id="div-botoes" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <p style="color:aliceblue; font-size: 15px;">Altere a ordem de atendimento quando necessário</p>
+      <br>
+
+    </div>
+
+    <div id="div-nomes">
+      <div
+        style="display: flex; flex-direction: row; align-items: center; border-radius: 20px; border-bottom: 20px; width: 300px; height: 30px; background-color: aliceblue">
+        <p>[31] William Santos </p>
+      </div>
+      <br>
+      <div
+        style="display: flex; flex-direction: row; align-items: center; border-radius: 20px;  border-bottom: 20px; width: 300px; height: 30px; background-color: aliceblue">
+        <p>[32] Matheus Souza </p>
+      </div>
+      <br>
+      <div
+        style="display: flex; flex-direction: row; align-items: center; border-radius: 20px; border-bottom: 20px; width: 300px; height: 30px; background-color: aliceblue">
+        <p>[33] Igor Albuquerque </p>
+      </div>
+      <br>
+      <div
+        style="display: flex; flex-direction: row; align-items: center; border-radius: 20px; border-bottom: 20px; width: 300px; height: 30px; background-color: aliceblue">
+        <p>[34] Davi Lima </p>
+      </div>
+      <br>
+      <div
+        style="display: flex; flex-direction: row; align-items: center; border-radius: 20px; border-bottom: 20px; width: 300px; height: 30px; background-color: aliceblue">
+        <p>[35] Joao Almeida </p>
+      </div>
+    </div>
+    <br>
+    <div>
+      <ion-button href="adm2" color="danger" style="width: 250px; height: 40px;">Chamar proximo</ion-button>
+    </div>
+  </div>
+
+
+
+  <ion-toolbar id="down-toolbar"
+    style="color: aliceblue; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+    <ion-title id="down-toolbar-text">
+      Problemas? contate o suporte
+      <ion-button href="suporte" color="danger" style="height: 30px;">
+        Ajuda
+      </ion-button>
+    </ion-title>
+  </ion-toolbar>
+
+
+</ion-content>

@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar id="up-toolbar"
+    style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; color: aliceblue;">
+    <ion-title>
+      <ion-icon name="paw-outline" style="height: 30px; width: 30px;"></ion-icon>
+      <a href="home" style="color: aliceblue; text-decoration: none;"><strong>Administração</strong></a>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true"
+  style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding-top: 50px;">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"> <strong style="color: aliceblue;">Clínica Veterinária</strong> </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!--AQUI VAI O CONTEUDO CENTRAL DA PAGINA-->
+  <div id="container" style="padding-top: 250px;">
+
+    <p style="color:aliceblue; font-size: 15px;">Atendimentos Contínuo</p>
+
+    <br>
+
+    <div id="div-botoes" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <p style="color:aliceblue; font-size: 15px;">Indique o guichê a ser dirigido</p>
+      <br>
+
+    </div>
+
+    <div id="div-nomes">
+      <div
+        style="display: flex; flex-direction: row; align-items: center; border-radius: 20px; border-bottom: 20px; width: 300px; height: 30px; background-color: aliceblue">
+        <p>[31] William Santos </p>
+      </div>
+      <br>
+      <p>
+        Guiche:
+      </p>
+      <br>
+      <div>
+        <ion-button href="adm2" color="danger" style="width: 100px; height: 40px;">Guichê 1</ion-button>
+      </div>
+      <br>
+      <div>
+        <ion-button href="adm2" color="danger" style="width: 100px; height: 40px;">Guichê 2</ion-button>
+      </div>
+      <br>
+      <div>
+        <ion-button href="adm2" color="danger" style="width: 100px; height: 40px;">Guichê 3</ion-button>
+      </div>
+      <br>
+      <div>
+        <ion-button href="adm2" color="danger" style="width: 100px; height: 40px;">Guichê 4</ion-button>
+      </div>
+      <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+      <ion-button href="admin" color="danger" style="width: 100px; height: 40px;">Atender</ion-button>
+    </div>
+
+
+
+    <ion-toolbar id="down-toolbar"
+      style="color: aliceblue; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+      <ion-title id="down-toolbar-text">
+        Problemas? contate o suporte
+        <ion-button href="suporte" color="danger" style="height: 30px;">
+          Ajuda
+        </ion-button>
+      </ion-title>
+    </ion-toolbar>
